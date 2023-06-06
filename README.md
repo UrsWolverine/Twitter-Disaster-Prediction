@@ -22,10 +22,10 @@ We developed a project in the "CIS.600.M007.SPRING23.Prncpls: Social Media and D
 
 # Modules of the code –
 
-## Traditional\_ML\_Algorithms\_Final.ipynb – 
+## ML\_Traditional\_Algorithms\_Final.ipynb – 
 The code in this file uses traditional machine learning algorithms to predict whether a tweet is about a real disaster or not. Two techniques were used for creating the Bag of Words model: CountVectorization and TF-IDF Vectorization. CountVectorization generates a vector of the length of the vocabulary with the count of each word in the tweet, while TF-IDF Vectorization generates a vector with the TF-IDF score of each word in the tweet. TF-IDF score indicates the relative importance of the word in all the tweets. High TF-IDF scores indicate that the word appears frequently in the tweets but not extremely frequently in all the tweets (e.g., stop words). The features created were used as input for traditional ML algorithms, such as SVM, Logistic Regression, and Multinomial Naive Bayes.
 
-## LSTM\_GloVe\_Weighted\_Prob\_Final.ipynb –
+## GloVe\_LSTM\_Weighted\_Final.ipynb –
 This file contains code for Twitter-Disaster-Prediction using GloVe Embedding, LSTM model & weighted probability score.
 
 1. For the GloVe Embedding + LSTM model, we conducted basic text preprocessing steps without eliminating stop words since it might negatively affect the meaning of the tweets. We employed a pre-trained GloVe embedding layer that was trained on Twitter data, where each word was transformed into a 100-dimensional vector. The tweets were constrained to a maximum length of 32 words, and tweets exceeding this limit were truncated, while tweets with fewer words were filled with zero vectors. The generated vectors were then fed into a Bidirectional LSTM layer containing 32 LSTM cells. The results obtained from these cells were then passed through four Dense layers, and the final layer produced the probability of a tweet referring to a real disaster.
