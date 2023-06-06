@@ -38,4 +38,4 @@ This file contains code for Twitter-Disaster-Prediction using GloVe Embedding, L
 2. Open Jupyter Notebook, Google Colab or any other '.ipynb' file running application and open both the files - Traditional\_ML\_Algorithms\_Final.ipynb & LSTM\_GloVe\_Weighted\_Prob\_Final.ipynb respectively.
 3. Run both the Notebooks, the model accuracy and related statistics can be seen. The final output obtained is saved in .csv file format with the following names - LSTM\_Glove\_aug\_weighted.csv, LSTM\_Glove\_non\_augmented.csv & submission.csv
 
-Additional information regarding the techniques utilized and the outcomes attained can be accessed in the Presentation and Project Report files located in the files submitted.
+
